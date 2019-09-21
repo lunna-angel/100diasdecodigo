@@ -29,7 +29,8 @@ github_username:  minimal_github
 theme: minima
 plugins:
   - jekyll-feed
-
+markdown: kramdown 
+permalink: /:title
 
 
 # Exclude from processing.
