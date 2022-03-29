@@ -9,11 +9,11 @@ media = ((N1*2) + (N2*3) + (N3*4) + (N4*1)) / 10
 print("Media: {:.1f}".format(media))
 
 if media >= 7.0:
-    print("Aluno aprovado.")
+    print("Aluno aprovado ok.")
 elif media < 5.0:
-    print("Aluno reprovado.")
+    print("Aluno reprovado NOK.")
 elif 5.0 <= media <= 6.9:
-    print("Aluno em exame.")
+    print("Aluno em exame ESTUDAR.")
 
     N5 = float(input())
     print("Nota do exame: " + str(N5))
